@@ -8,16 +8,17 @@
 html {
     font-size: 62.5%;
     line-height: 1.6rem;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
     box-sizing: border-box;
     font-size: 14px;
     line-height: 20px;
     height: 100%;
     width: 100%;
+    /* background-color: linear-gradient(purple, pink); */
 }
 
 body{
-    background-color: black;
+    /* background-color: #2a213a; */
     height: 100%;
     width: 100%;
 }

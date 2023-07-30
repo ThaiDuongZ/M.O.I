@@ -20,51 +20,25 @@
     <link rel="stylesheet" href="./js/style.js">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;700;800;900&display=swap" rel="stylesheet"> -->
 </head>
 <body>
     <div class="gird">
-        <div class="nav">
-            <div class="nav__header">
-                <img src="./img/ADmin.png" alt="" class="nav__header--img">
-                <img src="./img/Nav_logo.png" alt="" class="nav__header--img0">
-            </div>
-            <div class="nav__body">
-                <div class="nav__body--link">
-                    <a href="" class="nav__body--link_menu">Quản lý danh mục</a>
-                </div>
-                <div class="nav__body--link">
-                    <a href="" class="nav__body--link_menu">Quản lý sản phẩm</a>
-                </div>
-                <div class="nav__body--link">
-                    <a href="" class="nav__body--link_menu">Quản lý giao diện trang chủ</a>
-                </div>
-                <div class="nav__body--link">
-                    <a href="" class="nav__body--link_menu">Thay đổi background Website</a>
-                </div>
-                <div class="nav__body--link">
-                    <a href="" class="nav__body--link_menu">Nhập xuất tồn sản phẩm</a>
-                </div>
-                <div class="nav__body--link">
-                    <a href="" class="nav__body--link_menu">Quản lý khách hàng</a>
-                </div>
-                <div class="nav__body--link">
-                    <a href="" class="nav__body--link_menu">Quản lý đơn hàng</a>
-                </div>
-                <div class="nav__body--link">
-                    <a href="" class="nav__body--link_menu">In hóa đơn</a>
-                </div>
-                <div class="nav__body--link">
-                    <a href="" class="nav__body--link_menu">Báo cáo theo dõi kinh doanh</a>
-                </div>
-                
-            </div>
-        </div>
+        <?php
+            include('modules/menu.php');
+        ?>
         <div class="main">
-            <div class="header">
-                <img src="./img/header.png" alt="" class="header__img">
-            </div>
-            <div class="content"></div>
+            <?php
+                include('modules/header.php')
+            ?>
+            <div class="content">
+                <?php
+                    include('modules/main.php')
+                ?>
+            </div>           
         </div>
     </div>
 </body>
