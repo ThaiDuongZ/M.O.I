@@ -12,7 +12,8 @@
                 </div>
                 <div class="add__name">
                     <div class="add__name--name">Tên sản phẩm</div>
-                    <input type="text" class="add__name--code0" name="Ten_sp">
+                    <textarea name="Ten_sp" id="" cols="50" rows="3" class="add__name--code0"></textarea>
+                    <!-- <input type="text" class="add__name--code0" name="Ten_sp"> -->
                 </div>
                 <div class="add__name">
                     <div class="add__name--name">Giá sản phẩm</div>

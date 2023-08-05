@@ -2,6 +2,7 @@
     width: 270px;
     height: 100%;
     background-color: #263a53;
+    display: block;
 }
 
 .nav__header{
@@ -182,7 +183,7 @@
 }
 
 .form-select2{
-    margin-left: 96px;
+    margin-left: 97px;
 }
 
 .add__name--code5{
